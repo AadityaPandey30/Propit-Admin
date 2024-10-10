@@ -1,0 +1,116 @@
+{
+    "leads": [
+      {
+        "leadID": "L001",
+        "name": "John Doe",
+        "email": "john@example.com",
+        "phone": "1234567890",
+        "location": "New York",
+        "date": "2024-09-25T10:15:00Z",
+        "propertyPreferences": {
+          "location": "Brooklyn",
+          "budget": "500000 - 700000",
+          "propertyType": "Apartment"
+        },
+        "conversationSummary": "Looking for an apartment in Brooklyn within 500K-700K",
+        "conversation": [
+          {
+            "sender": "User",
+            "text": "I'm looking for an apartment in Brooklyn",
+            "timestamp": "2024-09-25T10:00:00Z"
+          },
+          {
+            "sender": "Bot",
+            "text": "I can help with that. What's your budget?",
+            "timestamp": "2024-09-25T10:01:00Z"
+          },
+          {
+            "sender": "User",
+            "text": "Around 600,000",
+            "timestamp": "2024-09-25T10:02:00Z"
+          }
+        ],
+        "activityLog": [
+          {
+            "action": "Lead Created",
+            "timestamp": "2024-09-25T10:15:00Z"
+          }
+        ]
+      },
+      {
+        "leadID": "L002",
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "phone": "9876543210",
+        "location": "Los Angeles",
+        "date": "2024-09-24T15:30:00Z",
+        "propertyPreferences": {
+          "location": "Beverly Hills",
+          "budget": "1M - 2M",
+          "propertyType": "House"
+        },
+        "conversationSummary": "Interested in a house in Beverly Hills within 1M-2M",
+        "conversation": [
+          {
+            "sender": "User",
+            "text": "I need a house in Beverly Hills.",
+            "timestamp": "2024-09-24T15:15:00Z"
+          },
+          {
+            "sender": "Bot",
+            "text": "What is your budget?",
+            "timestamp": "2024-09-24T15:16:00Z"
+          },
+          {
+            "sender": "User",
+            "text": "1.5 million",
+            "timestamp": "2024-09-24T15:17:00Z"
+          }
+        ],
+        "activityLog": [
+          {
+            "action": "Lead Created",
+            "timestamp": "2024-09-24T15:30:00Z"
+          }
+        ]
+      },
+      {
+        "leadID": "L003",
+        "name": "Michael Johnson",
+        "email": "michael@example.com",
+        "phone": "5554443333",
+        "location": "San Francisco",
+        "date": "2024-09-23T08:45:00Z",
+        "propertyPreferences": {
+          "location": "Downtown SF",
+          "budget": "700000 - 900000",
+          "propertyType": "Condo"
+        },
+        "conversationSummary": "Looking for a condo in Downtown SF between 700K-900K",
+        "conversation": [
+          {
+            "sender": "User",
+            "text": "I am searching for a condo in San Francisco.",
+            "timestamp": "2024-09-23T08:30:00Z"
+          },
+          {
+            "sender": "Bot",
+            "text": "What area are you targeting?",
+            "timestamp": "2024-09-23T08:31:00Z"
+          },
+          {
+            "sender": "User",
+            "text": "Downtown SF",
+            "timestamp": "2024-09-23T08:32:00Z"
+          }
+        ],
+        "activityLog": [
+          {
+            "action": "Lead Created",
+            "timestamp": "2024-09-23T08:45:00Z"
+          }
+        ]
+      }
+    ]
+  }
+  
