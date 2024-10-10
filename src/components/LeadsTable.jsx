@@ -21,7 +21,7 @@ const LeadsTable = () => {
 
   const fetchLeads = async () => {
     try {
-      const response = await fetch(`http://localhost:3000/api/leads?page=${currentPage}&limit=${leadsPerPage}`);
+      const response = await fetch(`https://propit-admin-backend-aaditya.onrender.com/api/leads?page=${currentPage}&limit=${leadsPerPage}`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
